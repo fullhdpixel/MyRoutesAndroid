@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#517cad</color>
+    <color name="loginPrimary">#87CB16</color>
+    <color name="colorPrimaryDark">#1b528f</color>
+    <color name="colorAccent">#ff0097</color>
+    <color name="statusSemi">#c83f51b5</color>
+    <!--<color name="menuSemi">#754179b6</color>-->
+    <color name="menuSemi">#33506F</color>
+    <color name="menuItem">#dbffffff</color>
+    <color name="backgroundSplash">#154172</color>
+    <color name="textSplash">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="semiWhite">#13ffffff</color>
+    <color name="passwordShow">#80ffffff</color>
+    <color name="colorProgress">#64aa24</color>
+    <color name="colorTrack">#246dbf</color>
+    <color name="colorCircle">#ff0097</color>
+    <color name="colorFacebook">#3b5998</color>
+    <color name="colorTwitter">#4099FF</color>
+    <color name="materialRed">#cf1852</color>
+    <color name="transparent">#00000000</color>
+    <color name="toolbardark">#222</color>
+    <color name="toolbar">#479e47</color>
+    <color name="toolbarSemi">#c8479e47</color>
+
+    <color name="driving">#f37735</color>
+    <color name="walking">#2d89ef</color>
+    <color name="bicycling">#00a300</color>
+    <color name="pressedWalking">#56a0f2</color>
+    <color name="pressedBicycling">#32b532</color>
+    <color name="pressedDriving">#f5925d</color>
+    <color name="rippleColor">#99FFFFFF</color>
+    <color name="shadowColor">#66000000</color>
+    <color name="progressOff">#4D000000</color>
+
+    <color name="undo">#2d89ef</color>
+    <color name="undoPressed">#56a0f2</color>
+
+    <color name="iconbox_bg">#7a100102</color>
+
+    <color name="color_0">#d11141</color>
+    <color name="color_1">#f37735</color>
+    <color name="color_2">#64aa24</color>
+    <color name="color_3">#00b159</color>
+    <color name="color_4">#246dbf</color>
+    <color name="color_5">#1b528f</color>
+    <color name="color_6">#101010</color>
+
+    <integer-array name="silhouetteColors">
+        <item>@color/color_0</item>
+        <item>@color/color_1</item>
+        <item>@color/color_2</item>
+        <item>@color/color_3</item>
+        <item>@color/color_4</item>
+        <item>@color/color_5</item>
+        <item>@color/color_6</item>
+    </integer-array>
+</resources>

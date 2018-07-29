@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="24dp"
+              android:paddingRight="24dp"
+              android:paddingBottom="8dp">
+
+    <TextView
+        android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/route_saved"/>
+
+    <Button
+        android:text="@string/overwrite_route"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/overwriteRoute"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="overWriteRoute"/>
+</LinearLayout>

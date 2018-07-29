@@ -1,0 +1,173 @@
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <!-- These are auto translated-->
+    <string name="navigation_drawer_open">ナビゲーション・ドロワーを開く</string>
+    <string name="navigation_drawer_close">ナビゲーション・ドロワーを閉じる</string>
+
+    <string name="subtitle">マップ上に経路を描く</string>
+    <string name="distance">距離</string>
+
+    <string name="viewmode">ビューモード</string>
+
+    <string name="network_unavailable">ネットワークは利用できません</string>
+    <string name="path_start_point">パスは出発点に戻ります</string>
+    <string name="selected_file_unsharable">選択したファイルは共有できません</string>
+    <string name="no_path_to_share">共有するパスがありません</string>
+
+    <string name="snap_to_road_off">道路に固定する</string>
+    <string name="snap_to_road_on">道路に固定する</string>
+    <string name="no_gpx_file">これはGPXファイルではありません</string>
+    <string name="no_mbtiles_file">これはMBTilesファイルではありません</string>
+
+    <string name="no_routes_saved">保存されたルートはありません</string>
+
+    <string name="quit_application">アプリケーションを終了する</string>
+    <string name="confirm_quit_application">本当にやめる気？</string>
+
+    <string name="delete_route">ルートを削除</string>
+    <string name="confirm_delete_route">このルートを削除してもよろしいですか？</string>
+
+    <string name="save_route">ルートを保存</string>
+    <string name="name_your_route">あなたのルートに名前をつける</string>
+    <string name="no_points_to_save">保存するポイントがありません</string>
+    <string name="routename_too_short">ルート名が短すぎます</string>
+
+    <string name="clear_map">地図をクリア</string>
+    <string name="confirm_remove_path">地図からすべてのポイントを削除してもよろしいですか？</string>
+
+    <string name="route_saved">経路が保存されました</string>
+    <string name="routes_saved">ルートが保存されました</string>
+    <string name="does_not_exist">存在しない</string>
+    <string name="is_imported">輸入されている</string>
+    <string name="is_saved">保存されています</string>
+    <string name="is_deleted">削除されました</string>
+    <!-- /end -->
+
+    <!-- activity main -->
+    <string name="property_routes">ルート</string>
+    <string name="property_actions">行動</string>
+    <string name="property_other">その他</string>
+
+    <!-- No Routes Available -->
+    <string name="action_import_gpx">GPXをインポートする</string>
+    <string name="action_share_gpx">GPXを共有する</string>
+    <string name="action_share_online_link">オンラインリンクを共有する</string>
+    <string name="action_offline">オフラインマップ</string>
+
+    <!-- Other -->
+    <string name="action_settings">設定</string>
+    <string name="action_changelog">変更ログ</string>
+    <string name="action_about">約</string>
+    <string name="action_share">アプリを共有する</string>
+
+    <!-- Action menu -->
+    <string name="action_delete">ルートを削除</string>
+    <string name="action_save">セーブ</string>
+    <string name="action_stop_import_mode">ビューモードを停止する</string>
+    <string name="action_clear">すべてクリア</string>
+    <string name="action_last_marker">最後のマーカーに移動</string>
+    <string name="action_start_marker">マーカーから開始</string>
+    <string name="action_snap_road">スナップオンロード</string>
+
+    <!-- Upload -->
+    <string name="action_upload">ルートをアップロードする</string>
+    <string name="upload_to_server">サーバーへのルートをアップロードする</string>
+    <string name="upload_generate_link">あなたのルートへのユニークなリンクを生成します。</string>
+    <string name="make_private">私道</string>
+
+    <string name="action_no_points">使用するポイントがありません</string>
+    <string name="action_no_points_save">保存するポイントがありません</string>
+    <string name="action_no_points_upload">アップロードするポイントがありません</string>
+
+    <!-- Settings -->
+    <string name="category_settings">インターフェイス設定</string>
+
+    <string name="checkbox_toolbar_transparent_title">透過的なツールバー</string>
+    <string name="checkbox_toolbar_transparent_summary">ホームスクリーンでツールバーを通して見ることを許可する</string>
+
+    <string name="category_map">地図の設定</string>
+    <string name="quality_high">高（真のカラーpng）</string>
+    <string name="quality_medium">中</string>
+    <string name="quality_low">低（圧縮JPG）</string>
+
+    <string name="unit_metric">メトリック</string>
+    <string name="unit_imperial">インペリアル</string>
+
+    <!-- Unit of Measuremenot -->
+    <string name="unit_title">測定の単位</string>
+    <!-- Tileset -->
+    <string name="maptype_title">タイルセット</string>
+    <!-- Minzoom -->
+    <string name="setting_minzoom">最小ズームレベル</string>
+    <!-- Max Zoom -->
+    <string name="setting_maxzoom">最大ズームレベル</string>
+    <string name="category_mapbox">MapBoxの設定</string>
+    <!-- Style of Tiles -->
+    <string name="mapbox_type_title">タイルのスタイル</string>
+    <!-- Quality -->
+    <string name="mapbox_quality_title">品質</string>
+    <string name="action_enable">有効にする</string>
+    <string name="action_start_navigation">ナビゲーションを開始する</string>
+
+    <string name="walking">ウォーキング</string>
+    <string name="running">ランニング</string>
+    <string name="cycling">サイクリング</string>
+    <string name="driving">運転</string>
+
+    <string name="none">なし</string>
+    <string name="training">トレーニング</string>
+    <string name="race">レース</string>
+
+    <string name="overwrite_route">ルートを上書きする</string>
+    <string name="action_silhouette">シルエットを作成する</string>
+    <string name="action_website">ウェブサイトを訪問</string>
+    <string name="action_search_place">場所検索</string>
+    <string name="colorpicker_line_summary">パスの色</string>
+    <string name="colorpicker_line_title">トラックの色</string>
+    <string name="action_write_review">レビューを書く</string>
+    <string name="title_activity_login">サインイン</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">電子メールアドレス</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in_short">サインイン</string>
+    <string name="error_invalid_email">このメールアドレスは無効です</string>
+    <string name="error_invalid_password">このパスワードは短すぎます</string>
+    <string name="error_incorrect_password">このパスワードは間違っています</string>
+    <string name="title_activity_signup">サインアップ</string>
+
+    <!-- Offline -->
+    <string name="generate_offline_map_mobac_instruction">Mobile Atlas Creator（MOBAC）を使用すると、独自のオフラインマップを生成してここにインポートできます。</string>
+    <string name="select_mbtiles_instruction">下のボタンをクリックして地図データ（.mbtiles）を選択し、ツールバーのチェックボックスを有効にします。</string>
+    <string name="selection_mbtiles_file">MBTilesファイルを選択</string>
+
+
+    <!-- Upload -->
+    <string name="route_name">名</string>
+    <string name="route_type">タイプ</string>
+    <string name="route_setting">設定</string>
+    <string name="route_description">説明</string>
+    <string name="route_upload">ルートをアップロードする</string>
+    <string name="uploading">アップロード中...</string>
+    <string name="route_update">アップデートルート</string>
+    <string name="upload_no_response">サーバーからの応答がありません</string>
+    <string name="upload_name_too_short">名前は短すぎる</string>
+    <string name="upload_name_too_long">名前が長すぎます</string>
+
+    <!-- Sillhouette-->
+    <string name="pick_image">画像を選択</string>
+    <string name="share_silhouette">シルエットを共有</string>
+
+    <!-- Review -->
+    <string name="thanks_for_using">ご利用いただきありがとうございます</string>
+    <string name="rate_play_store">「Playストアにレビューを書いてみませんか？</string>
+    <string name="rate_app">アプリを評価</string>
+
+    <!--Notices changelog-->
+    <string name="link_copied">コピーされたリンク</string>
+    <string name="route_available_web_address">あなたのルートは次のウェブアドレスで入手できます</string>
+    <string name="created_with_myroutes">Android用MyRoutesで作成</string>
+    <string name="category_markers">マーカー</string>
+    <string name="checkbox_show_distance_markers">トラックの近くに設定された間隔でマーカーを配置する</string>
+    <string name="checkbox_show_distance_markers_title">距離マーカーを表示する</string>
+
+</resources>

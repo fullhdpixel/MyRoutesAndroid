@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.myroutes.toolbar.MainActivity" >
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search_place"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_upload"
+        android:icon="@drawable/ic_cloud_upload_black_24dp"
+        android:title="@string/action_share_online_link"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item android:title="@string/property_routes">
+            <menu>
+                <item android:title=""></item>
+            </menu>
+        </item>
+        <item android:title="@string/property_actions">
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_login"
+                    android:title="@string/action_sign_in_short"
+                    android:visible="false"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/action_sign_out_short"
+                    android:visible="false"/>
+                <item
+                    android:id="@+id/nav_import"
+                    android:icon="@drawable/ic_import_gpx"
+                    android:title="@string/action_import_gpx"/>
+                <item
+                    android:id="@+id/nav_export"
+                    android:icon="@drawable/ic_share"
+                    android:title="@string/action_share_gpx"/>
+                <item
+                    android:id="@+id/nav_offline"
+                    android:icon="@drawable/ic_offline"
+                    android:title="@string/action_offline"/>
+            </menu>
+        </item>
+        <item android:title="@string/property_other">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/action_settings"/>
+                <item
+                    android:id="@+id/nav_remove_ads"
+                    android:icon="@drawable/ic_donate"
+                    android:title="@string/action_adfree"/>
+                <item
+                    android:id="@+id/nav_myroutes_offline"
+                    android:icon="@drawable/ic_icon"
+                    android:title="@string/action_myroutes_offline"/>
+                <item
+                    android:id="@+id/nav_website"
+                    android:icon="@drawable/ic_website"
+                    android:title="@string/action_website"/>
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_showsubmenu"
+        android:title="More Items"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_delete"
+                android:icon="@drawable/ic_delete_route"
+                app:showAsAction="always|withText"
+                android:title="@string/action_delete"/>
+            <item
+                android:id="@+id/action_save"
+                android:title="@string/action_save"
+                android:icon="@drawable/ic_save"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_toggle_view_mode"
+                android:title="Start View Mode"
+                android:icon="@drawable/ic_view_mode"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_return_to_start"
+                android:title="Return to Start"
+                android:icon="@drawable/ic_return_to_start"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_clear"
+                android:title="@string/action_clear"
+                android:icon="@drawable/ic_clear_all"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_last_marker"
+                android:title="@string/action_last_marker"
+                android:icon="@drawable/ic_go_to_last_marker"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_start_marker"
+                android:title="@string/action_start_marker"
+                android:icon="@drawable/ic_start_from_marker"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/action_snap_road"
+                android:title="@string/action_snap_road"
+                android:icon="@drawable/ic_snap_to_road"
+                android:checkable="true"/>
+        </menu>
+    </item>
+</menu>
